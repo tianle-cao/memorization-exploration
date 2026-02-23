@@ -19,12 +19,9 @@ Evaluation is strictly based on Entity-Level Exact Match.
 
 
 | Model Status | Precision (%) | Recall (%) | Entity F1 (%) |
-
 | :--- | :---: | :---: | :---: |
-
 | Before Finetuning | 37.75 | 76.66 | 50.59 |
-
-| After Finetuning | 92.39 | 90.82 | 91.60 |
+| After Finetuning | 92.39 | 90.82 | **91.60** |
 
 
 
@@ -35,12 +32,9 @@ Evaluation is strictly based on standard classification parsing across 5 imbalan
 
 
 | Model Status | Macro F1 (%) |
-
 | :--- | :---: |
-
 | Before Finetuning | 6.62 |
-
-| After Finetuning | 79.91 |
+| After Finetuning | **79.91** |
 
 
 
