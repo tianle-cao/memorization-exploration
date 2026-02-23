@@ -14,7 +14,7 @@ source activate mimic_env 2>/dev/null || conda activate mimic_env
 # Config
 BASE_MODEL="model_cache/llama3.1_8b_instruct"
 ADAPTER_PATH="checkpoints/re-DDI-v1/final_checkpoint"
-DATA_PATH="data/DDI/sentence_level_dev.csv"
+DATA_PATH="data/DDI/sentence_level_test.csv"
 
 OUT_BASE="results/re_pred_before.json"
 OUT_FT="results/re_pred_after.json"
